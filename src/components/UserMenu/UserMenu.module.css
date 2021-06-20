@@ -1,0 +1,13 @@
+.usermenuContainer {
+  display: flex;
+  align-items: center;
+}
+
+.usermenuAvatar {
+  margin-right: 4px;
+}
+
+.username {
+  font-weight: 700;
+  margin-right: 12px;
+}

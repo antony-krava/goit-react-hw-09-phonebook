@@ -1,0 +1,49 @@
+.ContactsList {
+  padding: 0;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+}
+
+.ContactsItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-style: normal;
+  font-weight: normal;
+}
+
+.textName,
+.textNumber {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.ContactsBtn {
+  padding: 7px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+
+  cursor: pointer;
+  outline: none;
+  border: inherit;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: aliceblue;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+
+.ContactsBtn:hover {
+  box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+}
+
+.title {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
